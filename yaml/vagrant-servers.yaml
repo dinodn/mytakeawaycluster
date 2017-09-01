@@ -1,0 +1,5 @@
+---
+- name: consul-server
+  ip: 10.0.0.10
+- name: nomad-server
+  ip: 10.0.0.20

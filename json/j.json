@@ -1,0 +1,15 @@
+{ 
+	"advertise_addr": "",
+	"bind_addr": "0.0.0.0",
+	"data_dir": "/var/lib/nomad",
+	"datacenter": "docker-cluster",
+	"enable_syslog": true,
+	"syslog_facility": "LOCAL0",
+	"log_level": "INFO",
+	"client": 
+	{
+		"enabled": true,
+		"network_interface": "enp0s8",
+		"servers": [ "10.0.0.10:4647" ] 
+	}
+}

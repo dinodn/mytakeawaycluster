@@ -1,0 +1,18 @@
+{ 
+	"advertise_addr": "",
+	"bind_addr": "0.0.0.0",
+	"advertise": 
+	{
+		"rpc": ":4647",
+		"serf": ":4648", 
+	},
+	"data_dir": "/var/lib/nomad",
+	"datacenter": "docker-cluster",
+	"enable_syslog": true,
+	"syslog_facility": "LOCAL0",
+	"log_level": "INFO",
+	"server": { 
+		"bootstrap_expect": 1,
+		"enabled": true, 
+	}
+}
