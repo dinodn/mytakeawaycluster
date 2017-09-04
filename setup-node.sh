@@ -15,7 +15,7 @@ while [ $count -le $1 ]
 do
  host=docker-host$count
  if [[ $(vboxmanage list hdds | grep -B4 $host | grep UUID | grep -v base | awk '{print $2}')  ]]; then
-  echo "$i disk file already exists. Exiting" 
+  echo "$host disk file already exists. Exiting" 
   exit
  fi
 count=$(($count + 1))
